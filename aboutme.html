@@ -3,40 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All About Alicia</title>
-    <style>
-        h1 {
-            color:rgb(90, 15, 68)
-        }       
+        <title>All About Alicia</title>
+    <style>      
         body {
-             background-color: rgb(58, 112, 138); 
-             };
+            background-image: url('images/background.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+             }
     </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <header><a href="index.html"><img src="Images/CSC106banner.jpg" alt="CSC106banner" border="0"></a>
+    <header>
+        <a href="index.html"><img src="Images/boreder.jpg" height="300" width="900"/></a>
     </header>
     <table>
         <tr>
             <td><a href="index.html"><img src="Images/home.png"></td>
             <td><a href="aboutme.html"><img src="Images/Aboutme.png" alt="About me Button"></a></td>
-            <td><a href="javascript.html"><img src="Images/Javascripts.png"></td>
+            <td><a href="javascript.html"><img src="Images/Javascript.png"></td>
         </tr>
     </table>
     <h1>All About Alicia</h1>
-    <h2>What she likes:</h2>
-    <ul>
-        <li>Learning</li>
-        <li>Art</li>
-        <li>Computers</li>
-    </ul>
-    <h2>Her favorite things</h2>
-    <ol>
-        <li>Her three boys</li>
-        <li>Football Season!</li>
-        <li>Creating</li>
-        <li>Teaching & Learning</li>
-    </ol>
-    <p>Alicia attends The University of Rhode Island. This is her last semester at URI, before graduating. She majors in Psychology and minors in Social Science Communications & Writing. </p>
-</body>
+    <div class="row">
+        <div class="column">
+            <img src="Images/KC.jpg" width="200px" id="KC" alt="kansas city cheifs rolling stones"></img>
+        </div>
+        <div class="column">
+            <img src="Images/draw.jpg" width="200px" id="drawing" alt="drawing of two men"><img>
+        </div> 
+        <div class="column">
+            <img src="/Images/drawing.jpg" width="200px" id="draw" alt="drawing of alicia"></img>    
+        </div>
+         
+    </div> 
+        <h2>What she likes:</h2>
+                <ul>
+                    <li>Learning</li>
+                    <li>Art</li>
+                    <li>Computers</li>
+                    <li>The Kansas City Chiefs</li>
+                </ul>
+            <h2>Her favorite things</h2>
+                <ol>
+                    <li>Her three boys</li>
+                    <li>Football Season- Patrick Mahomes</li>
+                    <li>Creating</li>
+                    <li>Teaching & Learning</li>
+                </ol>
+              <div class="tyler"><img src="Images/tyler.jpg" width="200px" id="tyler" alt="couple"></img>
+            </div>
+                <p id="aboutme">Alicia attends The University of Rhode Island. This is her last semester at URI, before graduating. She majors in Psychology and minors in Social Science Communications & Writing. </p>
+            <div class="clearfix"></div>
+            </body>
 </html>
