@@ -61,4 +61,7 @@ body {
     clear: both;
     
 }
-
+script {
+   max-width: 100px;
+   size-adjust: auto;
+}
