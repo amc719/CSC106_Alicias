@@ -65,3 +65,19 @@ script {
    max-width: 100px;
    size-adjust: auto;
 }
+p.summary {
+    float: left;
+    max-width: 400px;
+    padding-top: 50px;
+    clear: both;
+    margin: 20px;
+   
+}
+h3 {
+    text-align: justify;
+}
+script.final {
+    float: right;
+    margin: 50px;
+    
+}
